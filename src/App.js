@@ -10,11 +10,14 @@ const AnimeListWrapper = styled.ul`
 `;
 
 const AnimeItem = styled.li`
-  border: ${(props) =>
-    props.selected ? "2px solid darkcyan" : "2px solid gray"};
+  border: 3px solid gray;
+  background: ${(props) => (props.selected ? "teal" : "none")};
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  &:hover {
+    background: #61dafb;
+  }
 `;
 
 const ImageBox = styled.div`
