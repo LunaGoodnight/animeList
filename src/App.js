@@ -1,22 +1,25 @@
-import "./App.css";
 import { useState } from "react";
 import styled from "styled-components";
-import Abyss from "./images/abyss.webp";
+import { animeCollections } from "./config/animeCollections";
+import "./App.css";
 
 const AnimeListWrapper = styled.ul`
   display: flex;
   width: 100%;
   list-style: none;
+  gap: 1rem;
 `;
 
 const AnimeItem = styled.li`
-  border: 3px solid gray;
+  border: ${(props) => (props.selected ? "3px solid teal" : "3px solid gray")};
   background: ${(props) => (props.selected ? "teal" : "none")};
   display: flex;
   flex-direction: column;
   cursor: pointer;
+
   &:hover {
-    background: #61dafb;
+    background: #2c83d7;
+    border: 3px solid teal;
   }
 `;
 
@@ -24,13 +27,10 @@ const ImageBox = styled.div`
   width: 20rem;
   height: 20rem;
 `;
-const animeCollections = [
-  { title: "來自深淵", images: Abyss },
-  { title: "美少女戰士" },
-];
 
 const PageBody = styled.div`
   width: 100%;
+  padding: 2rem;
 `;
 function App() {
   const [animeList, setAnimeList] = useState([]);
