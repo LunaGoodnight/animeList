@@ -23,9 +23,19 @@ export const AnimeItem = styled.li`
 export const ImageBox = styled.div`
   width: 100%;
   height: 100%;
+
+  img {
+    height: 100%;
+  }
 `;
 
 export const PageBody = styled.div`
   width: 100%;
   padding: 2rem;
+`;
+
+export const AnimeTitle = styled.h4`
+  height: 4.3rem;
+  font-size: 1.5rem;
+  padding: 0.6rem;
 `;

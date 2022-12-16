@@ -17,7 +17,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>測試你的肥宅指數！</h2>
         {step === "choose" ? (
           <ChoosePanel animeList={animeList} setAnimeList={setAnimeList} />
         ) : (

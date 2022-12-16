@@ -10,4 +10,5 @@ export const animeCollections = [
   { title: "鋼之鍊金術師", images: FullMetal },
   { title: "刀劍神域", images: SAO },
   { title: "寒蟬鳴泣之時", images: Hira },
+  { title: "寒蟬鳴泣之時", images: "" },
 ];

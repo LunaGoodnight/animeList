@@ -3,17 +3,18 @@ import styled from "styled-components";
 import {
   AnimeItem,
   AnimeListWrapper,
+  AnimeTitle,
   ImageBox,
   PageBody,
 } from "./config/styleConfig";
 
 export const ChoosePanel = ({ animeList, setAnimeList }) => {
   const hasSelected = (title) => {
-    console.log({ test: "wowo" });
     return animeList.find((item) => item.title === title);
   };
   return (
     <div>
+      <h2>測試你的肥宅指數！</h2>
       <p>選擇你看過的動畫</p>
       <PageBody>
         <AnimeListWrapper>
@@ -31,7 +32,7 @@ export const ChoosePanel = ({ animeList, setAnimeList }) => {
                     : setAnimeList((prev) => prev.concat(x))
                 }
               >
-                <h4>{title}</h4>
+                <AnimeTitle>{title}</AnimeTitle>
                 <ImageBox>
                   <img src={images} alt={title} />
                 </ImageBox>
