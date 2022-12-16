@@ -38,4 +38,5 @@ export const AnimeTitle = styled.h4`
   height: 4.3rem;
   font-size: 1.5rem;
   padding: 0.6rem;
+  line-height: 1.4;
 `;

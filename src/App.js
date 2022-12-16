@@ -7,7 +7,7 @@ import styled from "styled-components";
 const StepButton = styled.button`
   background: teal;
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 0.8rem 0.8rem;
   border: none;
   cursor: pointer;
 `;
