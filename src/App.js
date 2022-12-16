@@ -24,7 +24,10 @@ function App() {
           <ResultPanel animeList={animeList} />
         )}
 
-        <StepButton onClick={() => setStep("result")}>
+        <StepButton
+          type="button"
+          onClick={() => setStep(step === "choose" ? "result" : "choose")}
+        >
           {step === "choose" ? "看結果" : "重選"}
         </StepButton>
       </header>
