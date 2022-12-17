@@ -19,6 +19,9 @@ import HackSign from "../images/hacksign.webp";
 import Five from "../images/five.webp";
 import Sha from "../images/sha.webp";
 import Saga from "../images/saga.webp";
+import Inuyasha from "../images/inuyasha.webp";
+import Hikaru from "../images/hikaru.webp";
+
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
   { title: "從零開始的異世界生活", images: ZeroKara },
@@ -41,4 +44,6 @@ export const animeCollections = [
   { title: "五等分的花嫁", images: Five },
   { title: "通靈王", images: Sha },
   { title: "佐賀偶像是傳奇", images: Saga },
+  { title: "犬夜叉", images: Inuyasha },
+  { title: "棋靈王", images: Hikaru },
 ];
