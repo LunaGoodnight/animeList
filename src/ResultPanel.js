@@ -9,6 +9,7 @@ import {
   AnimeTitle,
   ImageBox,
   PageBody,
+  StepButton,
 } from "./config/styleConfig";
 
 const ShareButton = styled.button`
@@ -21,7 +22,7 @@ const ShareButton = styled.button`
   font-weight: bold;
 `;
 
-export const ResultPanel = ({ animeList }) => {
+export const ResultPanel = ({ animeList, setStep }) => {
   const fatGuyPoint = () => {
     console.log({
       point: (animeList.length / animeCollections.length) * 100,
@@ -79,6 +80,10 @@ export const ResultPanel = ({ animeList }) => {
           })}
         </AnimeListWrapper>
       </PageBody>
+
+      <StepButton type="button" onClick={() => setStep("choose")}>
+        重選
+      </StepButton>
     </div>
   );
 };

@@ -1,16 +1,8 @@
 import { useState } from "react";
 import { ChoosePanel } from "./ChoosePanel";
-import "./App.css";
 import { ResultPanel } from "./ResultPanel";
-import styled from "styled-components";
+import "./App.css";
 
-const StepButton = styled.button`
-  background: teal;
-  color: #fff;
-  padding: 0.8rem 0.8rem;
-  border: none;
-  cursor: pointer;
-`;
 function App() {
   const [animeList, setAnimeList] = useState([]);
   const [step, setStep] = useState("choose");
@@ -18,17 +10,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         {step === "choose" ? (
-          <ChoosePanel animeList={animeList} setAnimeList={setAnimeList} />
+          <ChoosePanel
+            animeList={animeList}
+            setAnimeList={setAnimeList}
+            setStep={setStep}
+          />
         ) : (
-          <ResultPanel animeList={animeList} />
+          <ResultPanel animeList={animeList} setStep={setStep} />
         )}
-
-        <StepButton
-          type="button"
-          onClick={() => setStep(step === "choose" ? "result" : "choose")}
-        >
-          {step === "choose" ? "看結果" : "重選"}
-        </StepButton>
       </header>
     </div>
   );

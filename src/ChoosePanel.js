@@ -1,16 +1,24 @@
 import { animeCollections } from "./config/animeCollections";
-import styled from "styled-components";
+import { useDetectAdBlock } from "adblock-detect-react";
 import {
   AnimeItem,
   AnimeListWrapper,
   AnimeTitle,
   ImageBox,
   PageBody,
+  StepButton,
 } from "./config/styleConfig";
 
-export const ChoosePanel = ({ animeList, setAnimeList }) => {
+export const ChoosePanel = ({ animeList, setAnimeList, setStep }) => {
   const hasSelected = (title) => {
     return animeList.find((item) => item.title === title);
+  };
+  const adBlockDetected = useDetectAdBlock();
+
+  const handleStep = () => {
+    if (adBlockDetected) {
+      window.alert("ad block detected");
+    }
   };
   return (
     <div>
@@ -41,6 +49,9 @@ export const ChoosePanel = ({ animeList, setAnimeList }) => {
           })}
         </AnimeListWrapper>
       </PageBody>
+      <StepButton type="button" onClick={handleStep}>
+        看結果
+      </StepButton>
     </div>
   );
 };

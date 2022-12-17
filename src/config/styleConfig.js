@@ -19,6 +19,14 @@ export const AnimeItem = styled.li`
     border: 3px solid teal;
   }
 `;
+
+export const StepButton = styled.button`
+  background: teal;
+  color: #fff;
+  padding: 0.8rem 0.8rem;
+  border: none;
+  cursor: pointer;
+`;
 export const AnimeItemStatic = styled.li`
   border: 3px solid gray;
 
