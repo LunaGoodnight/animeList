@@ -21,9 +21,11 @@ import Sha from "../images/sha.webp";
 import Saga from "../images/saga.webp";
 import Inuyasha from "../images/inuyasha.webp";
 import Hikaru from "../images/hikaru.webp";
+import BigPeople from "../images/bigpeople.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
+  { title: "進擊的巨人", images: BigPeople },
   { title: "從零開始的異世界生活", images: ZeroKara },
   { title: "鋼之鍊金術師", images: FullMetal },
   { title: "刀劍神域", images: SAO },
