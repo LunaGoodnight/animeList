@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { animeCollections } from "./config/animeCollections";
 import {
   AnimeItem,
+  AnimeItemStatic,
   AnimeListWrapper,
   AnimeTitle,
   ImageBox,
@@ -68,12 +69,12 @@ export const ResultPanel = ({ animeList }) => {
           {animeList.map((x, i) => {
             const { title, images } = x;
             return (
-              <AnimeItem key={i}>
+              <AnimeItemStatic key={i}>
                 <AnimeTitle>{title}</AnimeTitle>
                 <ImageBox>
                   <img src={images} alt={title} />
                 </ImageBox>
-              </AnimeItem>
+              </AnimeItemStatic>
             );
           })}
         </AnimeListWrapper>

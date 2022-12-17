@@ -19,6 +19,14 @@ export const AnimeItem = styled.li`
     border: 3px solid teal;
   }
 `;
+export const AnimeItemStatic = styled.li`
+  border: 3px solid gray;
+
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 20%;
+`;
 
 export const ImageBox = styled.div`
   width: 100%;
