@@ -16,4 +16,6 @@ export const animeCollections = [
   { title: "約定的夢幻島", images: Dream },
   { title: "花牌情緣", images: Chihayafuru },
   { title: "獵人", images: Hunter },
+  { title: "家有女友", images: Hunter },
+  { title: "出租女友", images: Hunter },
 ];

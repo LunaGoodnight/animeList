@@ -5,6 +5,7 @@ export const AnimeListWrapper = styled.ul`
   width: 100%;
   list-style: none;
   gap: 1rem;
+  flex-wrap: wrap;
 `;
 
 export const AnimeItem = styled.li`
@@ -14,6 +15,7 @@ export const AnimeItem = styled.li`
   flex-direction: column;
   cursor: pointer;
   width: 20%;
+
   &:hover {
     background: #2c83d7;
     border: 3px solid teal;
@@ -32,7 +34,6 @@ export const AnimeItemStatic = styled.li`
 
   display: flex;
   flex-direction: column;
-  cursor: pointer;
   width: 20%;
 `;
 
