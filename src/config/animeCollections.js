@@ -32,6 +32,8 @@ import Spy from "../images/spy.webp";
 import Bingo from "../images/bingo.webp";
 import Ai from "../images/ai.webp";
 import Chain from "../images/chain.webp";
+import UC from "../images/uc.webp";
+import FateZero from "../images/fatezero.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
@@ -46,6 +48,7 @@ export const animeCollections = [
   { title: "花牌情緣", images: Chihayafuru },
   { title: "未聞花名", images: AnoHana },
   { title: "獵人", images: Hunter },
+  { title: "機動戰士鋼彈UC", images: UC },
   { title: "家有女友", images: Home },
   { title: "出租女友", images: Kano },
   { title: "機械女神", images: Lime },
@@ -68,4 +71,5 @@ export const animeCollections = [
   { title: "魔法騎士", images: Magic },
   { title: "影宅", images: Kage },
   { title: "冰菓", images: Bingo },
+  { title: "Fate/zero", images: FateZero },
 ];
