@@ -6,6 +6,9 @@ import Hira from "../images/hira.webp";
 import Dream from "../images/dream.webp";
 import Chihayafuru from "../images/chihara.webp";
 import Hunter from "../images/hunter.webp";
+import Lime from "../images/lime.webp";
+import Nine from "../images/nine.webp";
+import Nana from "../images/nana.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
@@ -18,4 +21,7 @@ export const animeCollections = [
   { title: "獵人", images: Hunter },
   { title: "家有女友", images: Hunter },
   { title: "出租女友", images: Hunter },
+  { title: "機械女神", images: Lime },
+  { title: "九龍珠", images: Nine },
+  { title: "NANA", images: Nana },
 ];
