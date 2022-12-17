@@ -22,6 +22,10 @@ import Saga from "../images/saga.webp";
 import Inuyasha from "../images/inuyasha.webp";
 import Hikaru from "../images/hikaru.webp";
 import BigPeople from "../images/bigpeople.webp";
+import Canon from "../images/canon.webp";
+import SailorMoon from "../images/sailormoon.webp";
+import Magic from "../images/magic.webp";
+import Kage from "../images/kage.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
@@ -45,7 +49,11 @@ export const animeCollections = [
   { title: "駭客時空", images: HackSign },
   { title: "五等分的花嫁", images: Five },
   { title: "通靈王", images: Sha },
+  { title: "名偵探柯南", images: Canon },
   { title: "佐賀偶像是傳奇", images: Saga },
   { title: "犬夜叉", images: Inuyasha },
   { title: "棋靈王", images: Hikaru },
+  { title: "美少女戰士", images: SailorMoon },
+  { title: "魔法騎士", images: Magic },
+  { title: "影宅", images: Kage },
 ];
