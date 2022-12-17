@@ -20,6 +20,7 @@ const ShareButton = styled.button`
   border: none;
   font-size: 1rem;
   font-weight: bold;
+  cursor: pointer;
 `;
 
 export const ResultPanel = ({ animeList, setStep }) => {

@@ -18,6 +18,8 @@ export const ChoosePanel = ({ animeList, setAnimeList, setStep }) => {
   const handleStep = () => {
     if (adBlockDetected) {
       window.alert("ad block detected");
+    } else {
+      setStep("result");
     }
   };
   return (
