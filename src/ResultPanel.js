@@ -62,9 +62,12 @@ export const ResultPanel = ({ animeList, setStep }) => {
   return (
     <div>
       <h3>{fatGuyPoint()}</h3>
-      <ShareButton type="button" onClick={() => handleClickTakeScreenShot()}>
-        分享圖片
-      </ShareButton>
+      {animeList.length > 0 ? (
+        <ShareButton type="button" onClick={() => handleClickTakeScreenShot()}>
+          分享圖片
+        </ShareButton>
+      ) : null}
+
       <PageBody ref={canvasRef}>
         <h3>我看過的動畫</h3>
         <AnimeListWrapper>

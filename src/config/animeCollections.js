@@ -34,6 +34,7 @@ import Ai from "../images/ai.webp";
 import Chain from "../images/chain.webp";
 import UC from "../images/uc.webp";
 import FateZero from "../images/fatezero.webp";
+import Wedding from "../images/wedding.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
@@ -69,6 +70,7 @@ export const animeCollections = [
   { title: "棋靈王", images: Hikaru },
   { title: "美少女戰士", images: SailorMoon },
   { title: "魔法騎士", images: Magic },
+  { title: "愛天使傳說", images: Wedding },
   { title: "影宅", images: Kage },
   { title: "冰菓", images: Bingo },
   { title: "Fate/zero", images: FateZero },
