@@ -26,6 +26,8 @@ import Canon from "../images/canon.webp";
 import SailorMoon from "../images/sailormoon.webp";
 import Magic from "../images/magic.webp";
 import Kage from "../images/kage.webp";
+import Fruits from "../images/fruits.webp";
+import AnoHana from "../images/anohana.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
@@ -36,6 +38,7 @@ export const animeCollections = [
   { title: "寒蟬鳴泣之時", images: Hira },
   { title: "約定的夢幻島", images: Dream },
   { title: "花牌情緣", images: Chihayafuru },
+  { title: "未聞花名", images: AnoHana },
   { title: "獵人", images: Hunter },
   { title: "家有女友", images: Home },
   { title: "出租女友", images: Kano },
@@ -44,6 +47,7 @@ export const animeCollections = [
   { title: "NANA", images: Nana },
   { title: "小書痴的下剋上", images: Book },
   { title: "草莓100%", images: Ichigo },
+  { title: "魔法水果籃", images: Fruits },
   { title: "GO SICK", images: GoSick },
   { title: "丹特麗安的書架", images: BookShelf },
   { title: "駭客時空", images: HackSign },
