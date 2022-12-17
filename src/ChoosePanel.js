@@ -4,11 +4,13 @@ import {
   AnimeItem,
   AnimeListWrapper,
   AnimeTitle,
+  CheckIcon,
   ImageBox,
   PageBody,
+  PageTopic,
   StepButton,
 } from "./config/styleConfig";
-
+import Checked from "../src/images/checked.webp";
 export const ChoosePanel = ({ animeList, setAnimeList, setStep }) => {
   const hasSelected = (title) => {
     return animeList.find((item) => item.title === title);
@@ -24,7 +26,7 @@ export const ChoosePanel = ({ animeList, setAnimeList, setStep }) => {
   };
   return (
     <div>
-      <h2>測試你的肥宅指數！</h2>
+      <PageTopic>測試你的肥宅指數！</PageTopic>
       <p>選擇你看過的動畫</p>
       <PageBody>
         <AnimeListWrapper>
@@ -46,6 +48,9 @@ export const ChoosePanel = ({ animeList, setAnimeList, setStep }) => {
                 <ImageBox>
                   <img src={images} alt={title} />
                 </ImageBox>
+                {hasSelected(title) && (
+                  <CheckIcon src={Checked} alt="checked" />
+                )}
               </AnimeItem>
             );
           })}

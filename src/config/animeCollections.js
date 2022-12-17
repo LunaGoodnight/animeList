@@ -28,15 +28,21 @@ import Magic from "../images/magic.webp";
 import Kage from "../images/kage.webp";
 import Fruits from "../images/fruits.webp";
 import AnoHana from "../images/anohana.webp";
+import Spy from "../images/spy.webp";
+import Bingo from "../images/bingo.webp";
+import Ai from "../images/ai.webp";
+import Chain from "../images/chain.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
+  { title: "鏈鋸人", images: Chain },
   { title: "進擊的巨人", images: BigPeople },
   { title: "從零開始的異世界生活", images: ZeroKara },
   { title: "鋼之鍊金術師", images: FullMetal },
   { title: "刀劍神域", images: SAO },
   { title: "寒蟬鳴泣之時", images: Hira },
   { title: "約定的夢幻島", images: Dream },
+  { title: "間碟家家酒", images: Spy },
   { title: "花牌情緣", images: Chihayafuru },
   { title: "未聞花名", images: AnoHana },
   { title: "獵人", images: Hunter },
@@ -54,10 +60,12 @@ export const animeCollections = [
   { title: "五等分的花嫁", images: Five },
   { title: "通靈王", images: Sha },
   { title: "名偵探柯南", images: Canon },
+  { title: "金田一少年事件簿", images: Ai },
   { title: "佐賀偶像是傳奇", images: Saga },
   { title: "犬夜叉", images: Inuyasha },
   { title: "棋靈王", images: Hikaru },
   { title: "美少女戰士", images: SailorMoon },
   { title: "魔法騎士", images: Magic },
   { title: "影宅", images: Kage },
+  { title: "冰菓", images: Bingo },
 ];
