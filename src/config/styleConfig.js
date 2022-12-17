@@ -57,6 +57,7 @@ export const ImageBox = styled.div`
 export const PageBody = styled.div`
   width: 96%;
   margin: 0 auto;
+  padding: 2rem 0;
 `;
 
 export const CheckIcon = styled.img`

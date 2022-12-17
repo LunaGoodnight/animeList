@@ -39,8 +39,8 @@ export const ResultPanel = ({ animeList, setStep }) => {
     const { cropPositionTop, cropPositionLeft, cropWidth, cropHeight } = {
       cropPositionTop: 0,
       cropPositionLeft: 0,
-      cropWidth: 1580,
-      cropHeight: 8888,
+      cropWidth: canvasRef.current.clientWidth,
+      cropHeight: canvasRef.current.clientHeight,
     };
     const options = {
       backgroundColor: "#000",
@@ -48,6 +48,8 @@ export const ResultPanel = ({ animeList, setStep }) => {
     html2canvas(canvasRef.current, options).then((canvas) => {
       let croppedCanvas = document.createElement("canvas");
       let croppedCanvasContext = croppedCanvas.getContext("2d");
+      console.log({ canvas });
+      console.log({ current: canvasRef.current });
 
       croppedCanvas.width = cropWidth;
       croppedCanvas.height = cropHeight;
