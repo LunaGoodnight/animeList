@@ -39,8 +39,8 @@ export const ResultPanel = ({ animeList, setStep }) => {
     const { cropPositionTop, cropPositionLeft, cropWidth, cropHeight } = {
       cropPositionTop: 0,
       cropPositionLeft: 0,
-      cropWidth: 1400,
-      cropHeight: 1800,
+      cropWidth: 1580,
+      cropHeight: 8888,
     };
     const options = {
       backgroundColor: "#000",
@@ -51,6 +51,7 @@ export const ResultPanel = ({ animeList, setStep }) => {
 
       croppedCanvas.width = cropWidth;
       croppedCanvas.height = cropHeight;
+
       croppedCanvasContext.drawImage(canvas, cropPositionLeft, cropPositionTop);
 
       const a = document.createElement("a");

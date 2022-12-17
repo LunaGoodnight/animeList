@@ -35,6 +35,7 @@ import Chain from "../images/chain.webp";
 import UC from "../images/uc.webp";
 import FateZero from "../images/fatezero.webp";
 import Wedding from "../images/wedding.webp";
+import Silver from "../images/silver.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
@@ -43,6 +44,7 @@ export const animeCollections = [
   { title: "從零開始的異世界生活", images: ZeroKara },
   { title: "鋼之鍊金術師", images: FullMetal },
   { title: "刀劍神域", images: SAO },
+  { title: "銀魂", images: Silver },
   { title: "寒蟬鳴泣之時", images: Hira },
   { title: "約定的夢幻島", images: Dream },
   { title: "間碟家家酒", images: Spy },
