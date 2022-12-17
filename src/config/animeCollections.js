@@ -15,6 +15,9 @@ import Kano from "../images/kano.webp";
 import Ichigo from "../images/ichigo.webp";
 import GoSick from "../images/gosick.webp";
 import BookShelf from "../images/bookshelf.webp";
+import HackSign from "../images/hacksign.webp";
+import Five from "../images/five.webp";
+import Sha from "../images/sha.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
@@ -34,4 +37,7 @@ export const animeCollections = [
   { title: "草莓100%", images: Ichigo },
   { title: "GO SICK", images: GoSick },
   { title: "丹特麗安的書架", images: BookShelf },
+  { title: "駭客時空", images: HackSign },
+  { title: "五等分的花嫁", images: Five },
+  { title: "通靈王", images: Sha },
 ];
