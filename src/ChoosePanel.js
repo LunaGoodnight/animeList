@@ -17,7 +17,7 @@ export const ChoosePanel = ({ animeList, setAnimeList, setStep }) => {
 
   const handleStep = () => {
     if (adBlockDetected) {
-      window.alert("ad block detected");
+      window.alert("請（針對本站）關掉擋廣告的套件");
     } else {
       setStep("result");
     }

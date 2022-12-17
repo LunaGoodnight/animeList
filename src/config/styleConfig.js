@@ -5,6 +5,7 @@ export const AnimeListWrapper = styled.ul`
   width: 100%;
   list-style: none;
   gap: 1rem;
+  justify-content: center;
   flex-wrap: wrap;
 `;
 
@@ -14,7 +15,7 @@ export const AnimeItem = styled.li`
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  width: 20%;
+  width: 18%;
 
   &:hover {
     background: #2c83d7;
@@ -47,8 +48,8 @@ export const ImageBox = styled.div`
 `;
 
 export const PageBody = styled.div`
-  width: 100%;
-  padding: 2rem;
+  width: 96%;
+  margin: 0 auto;
 `;
 
 export const AnimeTitle = styled.h4`
