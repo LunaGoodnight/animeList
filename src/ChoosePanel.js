@@ -44,7 +44,7 @@ export const ChoosePanel = ({ animeList, setAnimeList, setStep }) => {
                     : setAnimeList((prev) => prev.concat(x))
                 }
               >
-                <AnimeTitle>{title}</AnimeTitle>
+                <AnimeTitle isShrink={title.length > 7}>{title}</AnimeTitle>
                 <ImageBox>
                   <img src={images} alt={title} />
                 </ImageBox>

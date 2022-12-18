@@ -22,6 +22,11 @@ export const AnimeItem = styled.li`
     background: #2c83d7;
     border: 6px solid teal;
   }
+
+  @media only screen and (max-width: 850px) {
+    width: 44%;
+    max-height: 13rem;
+  }
 `;
 
 export const StepButton = styled.button`
@@ -74,7 +79,14 @@ export const PageTopic = styled.h2`
 
 export const AnimeTitle = styled.h4`
   height: 4.3rem;
-  font-size: 1.4rem;
+  font-size: ${(props) => (props.isShrink ? "1rem" : "1.4rem")};
+
   padding: 0.6rem;
   line-height: 1.4;
+
+  @media only screen and (max-width: 850px) {
+    font-size: ${(props) => (props.isShrink ? ".7rem" : "1rem")};
+
+    height: auto;
+  }
 `;

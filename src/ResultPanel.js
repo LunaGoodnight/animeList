@@ -3,7 +3,6 @@ import html2canvas from "html2canvas";
 import styled from "styled-components";
 import { animeCollections } from "./config/animeCollections";
 import {
-  AnimeItem,
   AnimeItemStatic,
   AnimeListWrapper,
   AnimeTitle,
