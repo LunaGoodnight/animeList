@@ -36,6 +36,7 @@ import UC from "../images/uc.webp";
 import FateZero from "../images/fatezero.webp";
 import Wedding from "../images/wedding.webp";
 import Silver from "../images/silver.webp";
+import Maiden from "../images/maiden.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
@@ -50,6 +51,7 @@ export const animeCollections = [
   { title: "間碟家家酒", images: Spy },
   { title: "花牌情緣", images: Chihayafuru },
   { title: "未聞花名", images: AnoHana },
+  { title: "薔薇少女", images: Maiden },
   { title: "獵人", images: Hunter },
   { title: "機動戰士鋼彈UC", images: UC },
   { title: "家有女友", images: Home },
