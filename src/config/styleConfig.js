@@ -25,7 +25,6 @@ export const AnimeItem = styled.li`
 
   @media only screen and (max-width: 850px) {
     width: 44%;
-    max-height: 13rem;
   }
 `;
 
@@ -47,13 +46,19 @@ export const AnimeItemStatic = styled.li`
 
   display: flex;
   flex-direction: column;
-  width: 20%;
+
+  @media only screen and (max-width: 850px) {
+    width: 44%;
+  }
 `;
 
 export const ImageBox = styled.div`
   width: 100%;
   height: 100%;
-
+  overflow: hidden;
+  @media only screen and (max-width: 850px) {
+    height: 9rem;
+  }
   img {
     height: 100%;
   }
