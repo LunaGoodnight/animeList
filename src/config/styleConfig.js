@@ -43,7 +43,7 @@ export const FeedBackTip = styled.div`
 `;
 export const AnimeItemStatic = styled.li`
   border: 3px solid #444;
-
+  width: 19%;
   display: flex;
   flex-direction: column;
 

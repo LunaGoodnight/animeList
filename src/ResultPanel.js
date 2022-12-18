@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import html2canvas from "html2canvas";
 import styled from "styled-components";
 import { animeCollections } from "./config/animeCollections";
@@ -50,8 +50,8 @@ export const ResultPanel = ({ animeList, setStep }) => {
       console.log({ canvas });
       console.log({ current: canvasRef.current });
 
-      croppedCanvas.width = cropWidth;
-      croppedCanvas.height = cropHeight;
+      croppedCanvas.width = canvas.width;
+      croppedCanvas.height = canvas.height;
 
       croppedCanvasContext.drawImage(canvas, cropPositionLeft, cropPositionTop);
 
@@ -61,6 +61,11 @@ export const ResultPanel = ({ animeList, setStep }) => {
       a.click();
     });
   };
+
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div>
       <h3>{fatGuyPoint()}</h3>
