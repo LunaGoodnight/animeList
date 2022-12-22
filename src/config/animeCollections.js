@@ -37,6 +37,8 @@ import FateZero from "../images/fatezero.webp";
 import Wedding from "../images/wedding.webp";
 import Silver from "../images/silver.webp";
 import Maiden from "../images/maiden.webp";
+import Baga from "../images/baga.webp";
+import Friends from "../images/friends.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
@@ -56,10 +58,12 @@ export const animeCollections = [
   { title: "機動戰士鋼彈UC", images: UC },
   { title: "家有女友", images: Home },
   { title: "出租女友", images: Kano },
+  { title: "我的朋友很少", images: Friends },
   { title: "機械女神", images: Lime },
   { title: "九龍珠", images: Nine },
   { title: "NANA", images: Nana },
   { title: "小書痴的下剋上", images: Book },
+  { title: "笨蛋測驗召喚獸", images: Baga },
   { title: "草莓100%", images: Ichigo },
   { title: "魔法水果籃", images: Fruits },
   { title: "GO SICK", images: GoSick },
