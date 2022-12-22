@@ -39,15 +39,25 @@ import Silver from "../images/silver.webp";
 import Maiden from "../images/maiden.webp";
 import Baga from "../images/baga.webp";
 import Friends from "../images/friends.webp";
+import Namae from "../images/namae.webp";
+import Weather from "../images/weather.webp";
+import Lock from "../images/lock.webp";
+import Ghost from "../images/ghost.webp";
+import Boku from "../images/boku.webp";
 
 export const animeCollections = [
   { title: "來自深淵", images: Abyss },
   { title: "鏈鋸人", images: Chain },
   { title: "進擊的巨人", images: BigPeople },
   { title: "從零開始的異世界生活", images: ZeroKara },
+  { title: "你的名子", images: Namae },
+  { title: "天氣之子", images: Weather },
+  { title: "鈴芽的門鎖", images: Lock },
   { title: "鋼之鍊金術師", images: FullMetal },
   { title: "刀劍神域", images: SAO },
   { title: "銀魂", images: Silver },
+  { title: "鬼滅之刃", images: Ghost },
+  { title: "我的英雄學院", images: Boku },
   { title: "寒蟬鳴泣之時", images: Hira },
   { title: "約定的夢幻島", images: Dream },
   { title: "間碟家家酒", images: Spy },
